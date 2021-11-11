@@ -1,0 +1,133 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100vw;
+    font-family: "Red Hat Display", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 20%;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.o-img{
+    border-radius: 20px 20px 0px 0px;
+}
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: hsl(224, 23%, 55%);
+    line-height: 25px;
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: center;
+  }
+.o-head{
+    color: hsl(223, 47%, 23%);
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+  }
+  .o-ann {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .o-year {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    margin-left:10px ;
+
+  }
+  .o-button {
+    margin-top: 25px;
+    width: 350px;
+    height: 45px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: hsl(224, 19%, 60%) 2px 10px 30px;
+    margin-bottom: 20px;
+  }
+  .o-button:hover {
+    background-color: rgb(92, 92, 241);
+  }
+  
+.cancel {
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .cancel:hover {
+    color: hsl(223, 47%, 23%);
+  }
+  .o-below{
+      display: grid;
+      grid-template-columns: 1fr 3fr 1fr;
+      align-items: center;
+      padding: 18px 40px;
+      background-color: hsl(225, 100%, 98%);
+      border-radius: 10%;
+      padding-bottom: 10px;
+  }
+    .change {
+        color:hsl(245, 75%, 52%)
+        font-weight: 500px;
+      }
+      .change:hover {
+        color:rgb(92, 92, 241) ;
+      }
+@media (max-width: 400px) {
+ 
+  .o-img {
+    border-radius: 20px 20px 0px 0px;
+    width: 99%;
+}
+.plan{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  width: 80%;
+}
+  
+.o-button{
+  width: 250px;
+}
+.o-below{
+  padding: 18px 0px;
+}
+.change{
+  font-size: 14px;
+}
+body{
+  background-image: url(images/pattern-background-mobile.svg);
+}
+}
+
+
